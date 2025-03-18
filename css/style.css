@@ -1,0 +1,83 @@
+h1{
+    margin-top: 0;
+}
+.confira_nota{
+height: 90vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.interno_confira_nota{
+    display: flex;
+    background-color: rgb(21, 230, 230);
+    flex-direction: column;
+    justify-content: center;
+    border:2px solid rgb(21, 230, 230);
+    border-radius: 15px;
+    width: 80%;
+    height: 40%;
+    align-items: center;
+    text-align: center;
+
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: anchor-center;
+}
+#nota, #frequencia{
+    margin-bottom: 4px;
+    border: none;
+    border-radius: 50px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.986);
+    text-align: center;
+    
+}
+.notas{
+    margin-bottom: 4px;
+    border: none;
+    border-radius: 50px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.986);
+    text-align: center;
+    width: 70%;
+    
+}
+#verResultado{
+    border: none;
+    background-color: white;
+    border-radius: 50px;
+    height: 25px;
+    width: 100px;
+}
+#verMedia{
+    border: none;
+    background-color: white;
+    border-radius: 50px;
+    height: 25px;
+    width: 100px;
+}
+#verResultado:hover{
+    border: 2px solid rgb(30, 195, 224);
+    background-color: rgb(30, 195, 224);
+    color: white;
+}
+header{
+    margin-top: 5%;
+    margin-bottom: 1px;
+}
+header, a{
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+a.cabeca:visited{
+border: 1px solid rgb(18, 231, 231);
+border-radius: 15px;
+}
